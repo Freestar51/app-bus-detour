@@ -1,0 +1,6 @@
+
+input: stopid, output: businfo
+http://apis.its.ulsan.kr:8088/Service4.svc/AllBusArrivalInfo.xo?stopid=40233
+
+input: busid, output: stopinfo
+http://apis.its.ulsan.kr:8088/Service4.svc/RouteDetailInfo2.xo?ctype=A&routeid=196103371
